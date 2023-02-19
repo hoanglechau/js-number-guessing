@@ -1,0 +1,41 @@
+/*
+ Go nuts on the CSS if you'd like to make this look prettier!
+
+ Bonus challenge (this requires advanced concepts you haven't learned yet): make "correct" be green, and "wrong" be red.
+*/
+body {
+  margin: 0;
+}
+
+.page {
+  font-family: monospace;
+  color: white;
+  background-color: black;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  margin: 0;
+}
+
+.button {
+  font-size: 1.5em;
+  margin: 30px 0;
+  padding: 15px;
+  border-radius: 30px;
+  color: red;
+  box-shadow: 0 9px #999;
+  transition: 0.1s;
+}
+
+.button:hover {
+  background-color: pink;
+}
+
+.button:active {
+  background-color: pink;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
