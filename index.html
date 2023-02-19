@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class=page>
+    <h1>CoderSchool's Psychic Powers Tester</h1>
+    <p>Do you have psychic powers? If so, prove it by guessing what number I am thinking of right now. I am thinking of
+        a number between 1 and 10.</p>
+
+    <button class="button" onclick="makeGuess()">Guess</button>
+
+    <h2> You guessed: <span id="last-guess">?</span></h2>
+
+    <h2> That guess was <span id="correct">?</span></h2>
+
+    <h2 id="third-text"> Sorry! Your guess of <span id="recent-guess">?</span> was too <span id="evaluation">?</span>
+        You have guessed <span id="guess-count">?</span> times. Your previous guesses were: <span
+                id="past-guess">?</span>
+
+        <h2 id="fourth-text"> You have <span id="guesses-remaining">?</span> guesses remaining.</h2>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
